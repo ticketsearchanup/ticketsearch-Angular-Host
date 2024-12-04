@@ -1,0 +1,12 @@
+{
+    "/react-remote": {
+      "target": "http://localhost:3001/overviewdashboard",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+      "^/react-remote": "http://localhost:3001/overviewdashboard"
+    }
+      
+  }
+}
+  
