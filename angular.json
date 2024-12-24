@@ -50,7 +50,8 @@
 								}
 							],
 							"outputHashing": "all",
-							"extraWebpackConfig": "webpack.prod.config.js"
+							"extraWebpackConfig": "webpack.prod.config.js",
+							"index": "src/index.html"
 						},
 						"development": {
 							"buildOptimizer": false,
@@ -58,7 +59,8 @@
 							"vendorChunk": true,
 							"extractLicenses": false,
 							"sourceMap": true,
-							"namedChunks": true
+							"namedChunks": true,
+							"index": "src/index.html"
 						}
 					},
 					"defaultConfiguration": "production"
