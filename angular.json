@@ -50,7 +50,6 @@
 								}
 							],
 							"outputHashing": "all",
-							"extraWebpackConfig": "webpack.prod.config.js",
 							"index": "src/index.html"
 						},
 						"development": {

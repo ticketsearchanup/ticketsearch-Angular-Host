@@ -23,7 +23,7 @@ pipeline {
                 echo 'Building the Angular application...'
                 bat """
                     
-                    npm run build -- --configuration production
+                    ng build --configuration production
                 """
             }
         }
