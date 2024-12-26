@@ -13,15 +13,21 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2020",
-    "module": "es2020",
-    "jsx": "react",
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
+    "target": "ES2022",
+    "module": "ES2022",
+    "jsx": "react-jsx",
     "lib": [
-      "es2020",
+      "ES2022",
       "dom"
-    ]
+    ],
+    "skipLibCheck": true, // Prevents errors in third-party declarations
+    "strictNullChecks": true, // Ensures null safety
+    "resolveJsonModule": true // Useful for importing JSON modules
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
