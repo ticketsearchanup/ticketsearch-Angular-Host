@@ -11,13 +11,13 @@ pipeline {
                 git url: 'https://github.com/ticketsearchanup/ticketsearch-Angular-Host', branch: 'master'
             }
         }
-     //   stage('Install Dependencies') {
-       //     steps {
-         //       bat """
-           //         npm install
-            //    """
-            //}
-        //}
+        stage('Install Dependencies') {
+            steps {
+                bat """
+                    npm install
+                """
+            }
+        }
         stage('Build') {
             steps {
                 echo 'Building the Angular application...'
