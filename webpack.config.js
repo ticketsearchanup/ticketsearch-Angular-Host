@@ -96,7 +96,12 @@ module.exports = {
           eager: true, // Omit or set to false for lazy loading
           requiredVersion: "^7.15.8" // Match your specific project version
           },
-
+          "@tanstack/react-table": {
+          singleton: true,
+          eager:true,
+          requiredVersion: "^8.7.0"
+          },
+          
 
           ...sharedMappings.getDescriptors()
         })

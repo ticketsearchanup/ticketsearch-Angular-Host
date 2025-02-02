@@ -1,6 +1,12 @@
-<div>
-
-  <app-overviewdashboard-wrapper></app-overviewdashboard-wrapper>
-
-  
+<div class="app-container">
+  <nav>
+    <a routerLink="/overviewdashboard" routerLinkActive="active"></a>
+    <a routerLink="/eventsnapshotdashboard" routerLinkActive="active"></a>
+    <a routerLink="/donationsdashboard" routerLinkActive="active"></a>
+    <a routerLink="/giftvoucherdashboard" routerLinkActive="active"></a>
+    <a routerLink="/marketingdashboard" routerLinkActive="active"></a>
+    <a routerLink="/membershipdashboard" routerLinkActive="active"></a>
+    <a routerLink="/scanningdashboard" routerLinkActive="active"></a>
+  </nav>
+  <router-outlet></router-outlet>
 </div>
