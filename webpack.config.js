@@ -62,7 +62,7 @@ module.exports = {
           requiredVersion: "^4.4.4" // Match your specific project version
           },
           "react-date-range": {
-            singleton: true,
+          singleton: true,
           eager: true, // Omit or set to false for lazy loading
           requiredVersion: "^2.0.1" // Match your specific project version
           },

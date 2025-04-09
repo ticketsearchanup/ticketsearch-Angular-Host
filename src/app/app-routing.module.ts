@@ -7,6 +7,11 @@ import { GiftvoucherdashboardWrapperComponent } from './giftvoucherdashboard-wra
 import { MarketingdashboardWrapperComponent } from './marketingdashboard-wrapper/marketingdashboard-wrapper.component';
 import { MembershipdashboardWrapperComponent } from './membershipdashboard-wrapper/membershipdashboard-wrapper.component';
 import { ScanningdashboardWrapperComponent } from './scanningdashboard-wrapper/scanningdashboard-wrapper.component';
+import { PromoteraccessdetaildashboardWrapperComponent } from './promoteraccessdetaildashboard-wrapper/promoteraccessdetaildashboard-wrapper.component'
+import { PromoteraccessbasicdashboardWrapperComponent } from './promoteraccessbasicdashboard-wrapper/promoteraccessbasicdashboard-wrapper.component'
+import { PromotersoldoutdashboardWrapperComponent } from './promotersoldoutdashboard-wrapper/promotersoldoutdashboard-wrapper.component'
+import { PromotersctickettypedashboardWrapperComponent } from './promotersctickettypedashboard-wrapper/promotersctickettypedashboard-wrapper.component'
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/overviewdashboard', pathMatch: 'full' }, // Default route
@@ -17,6 +22,10 @@ const routes: Routes = [
   { path: 'marketingdashboard', component: MarketingdashboardWrapperComponent },
   { path: 'membershipdashboard', component: MembershipdashboardWrapperComponent },
   { path: 'scanningdashboard', component: ScanningdashboardWrapperComponent },
+  { path: 'promoteraccessdetaildashboard', component: PromoteraccessdetaildashboardWrapperComponent },
+  { path: 'promoteraccessbasicdashboard', component: PromoteraccessbasicdashboardWrapperComponent },
+  { path: 'promotersoldoutdashboard', component: PromotersoldoutdashboardWrapperComponent },
+  { path: 'promotersctickettypedashboard', component: PromotersctickettypedashboardWrapperComponent },
   { path: '**', redirectTo: '/overviewdashboard' } // Wildcard route for undefined paths
 ];
 

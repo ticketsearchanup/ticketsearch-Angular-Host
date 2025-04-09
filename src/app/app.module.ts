@@ -10,6 +10,10 @@ import { GiftvoucherdashboardWrapperComponent } from './giftvoucherdashboard-wra
 import { MarketingdashboardWrapperComponent } from './marketingdashboard-wrapper/marketingdashboard-wrapper.component';
 import { MembershipdashboardWrapperComponent } from './membershipdashboard-wrapper/membershipdashboard-wrapper.component';
 import { ScanningdashboardWrapperComponent } from './scanningdashboard-wrapper/scanningdashboard-wrapper.component';
+import { PromoteraccessdetaildashboardWrapperComponent } from './promoteraccessdetaildashboard-wrapper/promoteraccessdetaildashboard-wrapper.component';
+import { PromoteraccessbasicdashboardWrapperComponent } from './promoteraccessbasicdashboard-wrapper/promoteraccessbasicdashboard-wrapper.component';
+import { PromotersoldoutdashboardWrapperComponent } from './promotersoldoutdashboard-wrapper/promotersoldoutdashboard-wrapper.component';
+import { PromotersctickettypedashboardWrapperComponent } from './promotersctickettypedashboard-wrapper/promotersctickettypedashboard-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { ScanningdashboardWrapperComponent } from './scanningdashboard-wrapper/s
     GiftvoucherdashboardWrapperComponent,
     MarketingdashboardWrapperComponent,
     MembershipdashboardWrapperComponent,
-    ScanningdashboardWrapperComponent
+    ScanningdashboardWrapperComponent,
+    PromoteraccessdetaildashboardWrapperComponent,
+    PromoteraccessbasicdashboardWrapperComponent,
+    PromotersoldoutdashboardWrapperComponent,
+    PromotersctickettypedashboardWrapperComponent
   ],
   imports: [
     BrowserModule,
